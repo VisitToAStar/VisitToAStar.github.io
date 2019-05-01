@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@4.4.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.28.0"></script>
+  </head>
+  <body>
+    <div id="vis"></div>
+
+    <script type="text/javascript">
+      var yourVlSpec = {
+        "data": {"url": "data/seattle-weather.csv"},
+        "mark": "tick",
+        "encoding": {
+          "x": {"field": "precipitation", "type": "quantitative"}
+        }
+      };
+      vegaEmbed('#vis', yourVlSpec);
+    </script>
+  </body>
+</html>

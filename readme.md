@@ -1,6 +1,9 @@
-* [Web basics](https://alignedleft.com/tutorials/d3/fundamentals)
-* [HTML element](https://en.wikipedia.org/wiki/HTML_element)
-* [Take a try straightforwardly ](https://beta.observablehq.com/playground)
+* [ ][d3 tutorial](https://alignedleft.com/tutorials/d3/fundamentals)
+* [ ][HTML element](https://en.wikipedia.org/wiki/HTML_element)
+* [ ][JavaScript tutorial in an interactive way ](https://beta.observablehq.com/playground)
+* [x] https://learnlayout.com/
+* [x] [html & CSS](https://learn.shayhowe.com/html-css)
+
 ### CSS
 ```css
 h1          /* Selects level 1 headings              */
