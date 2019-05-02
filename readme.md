@@ -46,3 +46,7 @@ or stored in a separate file, and then referenced somewhere the HTML (commonly i
     <script type="text/javascript" src="myscript.js"></script>
 </head>
 ```
+
+### Problems need to be solved
+1. I have a serious problems, which I can only display one vega-lite example in a webpage, how to display multiple examples?
+2. Contents of html file only contains `<script>`, `<script>` and what's in between.
