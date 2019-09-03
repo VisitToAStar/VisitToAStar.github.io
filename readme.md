@@ -47,6 +47,21 @@ or stored in a separate file, and then referenced somewhere the HTML (commonly i
 </head>
 ```
 
+### `class` and `id`
+
+```html
+<div id="vis"></div>
+<h1><span class = "welcome">JavaScript library for data visulization overview</span></h1>
+```
+In the CSS, a class selector is a name preceded by a full stop (`.`) and an ID selector is a name preceded by a hash character (`#`).
+
+```css
+.welcome { font-style:italic; color:red; }
+span {border          :1px solid black;
+      background-color:cyan;  }
+```
+
+
 ### Problems need to be solved
 1. I have a serious problems, which I can only display one vega-lite example in a webpage, how to display multiple examples?
 2. Contents of html file only contains `<script>`, `<script>` and what's in between.
